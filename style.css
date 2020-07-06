@@ -1,0 +1,38 @@
+#title
+{
+    text-align: center;
+    padding-bottom: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#content
+{
+    text-align: center;
+}
+#puzzle
+{
+    border:1px solid #000000;
+    background: #ff0000;
+}
+#gallery{
+    table-layout: initial;
+}
+.gallery {
+    display: table-cell;
+    width: 90px;
+    height: 90px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1350px){
+    /*ukrywa obrazek wskazówkowy*/
+    #hint{
+        display: none;
+    }
+
+    #puzzle{
+        width: 640px;
+        height: 640px;
+    }
+}
